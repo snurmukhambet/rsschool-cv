@@ -1,0 +1,1 @@
+https://snurmukhambet.github.io/rsschool-cv/cv
