@@ -6,6 +6,7 @@
 * Telegram: [@snurmukhambet](https://t.me/snurmukhambet)
 * GitHub: [snurmukhambet](https://github.com/snurmukhambet)
 * Discord: snurmukhambet
+* Phone number: +7 (776) 275 41 25
 
 ## About me
 
