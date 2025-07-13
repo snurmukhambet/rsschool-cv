@@ -1,0 +1,2 @@
+- https://snurmukhambet.github.io/rsschool-cv/cv
+- https://snurmukhambet.github.io/rsschool-cv/
