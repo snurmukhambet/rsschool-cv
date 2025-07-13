@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Syne&display=swap');
+
+html {
+    scroll-behavior: smooth; 
+}
+
+:root {
+    --background-color: #000000;
+    --main-font-color: #fff;
+    --additional-font-color: #33b058;
+    --secondary-font-color: #606060;
+}
+
+body {
+    font-family: 'Abril Fatface', cursive; 
+    background-color: var(--background-color);
+    color: var(--main-font-color);
+}
+
+a {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* --------------------------- HEADER ------------------- */
+
+.header {
+    max-height: 80px;
+    padding: 40px 0px;
+}
+
+.nav {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav .nav-list {
+    color: var(--secondary-font-color);
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.nav-list li a {
+    color: var(--secondary-font-color);
+    transition-duration: 0.3s;
+}
+.nav-list li a:hover {
+    color: var(--main-font-color);
+}
+
+.nav-logo {
+    font-size: 32px;
+    color: var(--main-font-color)
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    color: var(--main-font-color);
+}
+
+.btn a {
+    color: var(--additional-font-color);
+}
+
+.btn {
+    padding: 10px 30px;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    background-color: var(--background-color);
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+  
+.btn:hover {
+    filter: opacity(0.7);
+    cursor: pointer;
+}
+/* --------------------------- HEADER ------------------- */
+
+/* --------------------------- SECTION ABOUT ------------------- */
+.personal-photo {
+    width: 400px;
+    border-radius: 4px;
+}
+
+.about {
+    margin-top: 60px;
+    color: var(--main-font-color);
+    margin-bottom: 150px;
+}
+
+.about .wrap {
+    display: flex;
+    gap: 40px;
+}
+
+.right-info {
+    margin-left: 20px;
+}
+
+.right-info h1 {
+    font-size: 56px;
+    margin: 0;
+}
+
+.right-info h2 {
+    font-size: 28px;
+    color: var(--secondary-font-color);
+    margin: 10px 0;
+}
+
+.short-info {
+    font-family: 'Exo 2', sans-serif; 
+    color: var(--main-font-color);
+}
+
+.short-info span {
+    color: var(--additional-font-color);
+}
+
+.links li a {
+    color: var(--main-font-color);
+    font-size: 14px;
+    font-family: 'Exo 2', sans-serif; 
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Отступ между картинкой и текстом */
+    transition-duration: 0.1s;
+}
+
+.links img {
+    width: 25px;
+    /*filter: brightness(70%);*/
+    transition-duration: 0.1s;
+}
+
+.links a:hover {
+    color: #606060;
+}
+
+.links ul li {
+    padding: 5px  0px;
+}
+
+/* --------------------------- SECTION ABOUT ------------------- */
+
+/* --------------------------- SECTION EDUCATION ------------------- */
+
+section {
+    font-family: 'Exo 2', sans-serif; 
+}
+
+section h2 {
+    font-size: 28px;;
+}
+
+.education {
+    margin-bottom: 80px;
+}
+
+.education .container {
+    border: 1px solid var(--main-font-color);
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.education h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.education .date {
+    font-size: 14px;
+    margin: 0;
+    color: var(--secondary-font-color);
+}
+
+.education .courses {
+    font-size: 18px;
+}
+
+.uni {
+    margin: 40px 0px;
+}
+
+/* --------------------------- SECTION EDUCATION ------------------- */
+
+/* --------------------------- SECTION SKILLS ------------------- */
+
+.skills {
+    margin-bottom: 80px;
+}
+.skills .container {
+    border: 1px solid var(--main-font-color);
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+.skills ul {
+    padding-top: 10px;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.skills ul li:hover {
+    background-color: var(--main-font-color);
+    color: var(--background-color);
+}
+
+/* --------------------------- SECTION SKILLS ------------------- */
+
+/* --------------------------- SECTION LANGUAGES ------------------- */
+.languages {
+    margin-bottom: 80px;
+}
+
+.languages .container {
+    border: 1px solid var(--main-font-color);
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.languages ul {
+    padding-top: 10px;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.languages ul li {
+    padding: 5px 0;
+}
+
+/* --------------------------- SECTION LANGUAGES ------------------- */
+
+/* --------------------------- SECTION PROJECTS ------------------- */
+
+.projects {
+    margin-bottom: 80px;
+}
+
+.projects .container {
+    border: 1px solid var(--main-font-color);
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.project-item {
+    padding: 10px 0px;
+}
+
+.projects h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+.projects p {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.projects a {
+    transition-duration: 0.8s;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------- SECTION PROJECTS ------------------- */
+
+/* --------------------------- SECTION CODE ------------------- */
+
+.code {
+    margin-bottom: 40px;
+}
+
+.code .container {
+    border: 1px solid var(--main-font-color);
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+
+/* --------------------------- SECTION CODE ------------------- */
+
+
+/* --------------------------- FOOTER ------------------- */
+.footer {
+    font-family: 'Exo 2', sans-serif;
+    max-height: 80px;
+    text-align: center;
+}
+
+.rs {
+    width: 100px;
+}
+
+.gh {
+    width: 50px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* --------------------------- FOOTER ------------------- */
+
+
+/* --------------------------- Custom Cursor ------------------- */
+.inner-cursor {
+    position: fixed;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    background-color: var(--main-font-color);
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: width 0.5s, height 0.5s;
+}
+
+.inner-cursor.grow {
+    width: 25px;
+    height: 25px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.outer-cursor {
+    position: fixed;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--main-font-color);
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 0.1s;
+}
+
+@media (max-width: 1150px) {
+    .nav {
+        gap: 100px;
+    }
+}
+
+
+
+
+
+
+
+
